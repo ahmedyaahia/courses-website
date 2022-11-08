@@ -1,0 +1,442 @@
+/*intro*/
+.body{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    overflow-y: hidden;
+    
+}
+.main_intro {
+    width: 100%;
+    height: 720px;
+    overflow: hidden;
+    background-image: url('../images/pexels-luis-quintero-2774556.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 70%;
+    color: white;
+
+    
+}
+.main_intro .over{
+    width: 40%;
+    margin-left: 7% ;
+    margin-top: 200px;
+    opacity: 100%;
+
+    
+}
+.main_intro h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+
+}
+.main_intro #introo{
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    font-size: 20px;
+
+}
+.main_intro .play{
+    float: left;
+    width: 100%;
+    height: auto;
+}
+.main_intro .play img{
+    width: 20%;
+    height: 100px;
+    float: left;
+}
+.main_intro .play #openvid{
+    float: left;
+    margin-left: 5% ;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 40px;
+    font-size: 25px;
+}
+.main_intro .parent_big{
+    position: relative;
+    position: absolute;
+    width: 100%;
+    margin-left: 30%;
+    margin-top: 250px;
+    height: auto;
+    overflow: hidden;
+}
+.main_intro .detaled_courses{
+    position: relative;
+    width: 60%;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 10%;
+    float: left;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+    
+}
+ .detaled_courses ul{
+    min-width: 6000px;
+    list-style-type: none;
+}
+ .detaled_courses ul li{
+    float: left;
+
+}
+
+.parent_big #go{
+    position: absolute;
+    height: 50px;
+    top: 40%;
+    right: 5%;
+    z-index: +2;
+    left: 60%;
+    background-color: rgba(255, 255, 255, 0.322);
+
+}
+
+ .parent_big #back{
+    position: absolute;
+    height: 50px;
+    top: 40%;
+    left:  15%;
+    z-index: +2;
+    background-color: rgba(255, 255, 255, 0.322);
+
+}
+
+.parent_big #go:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.parent_big #back:hover{
+    cursor: pointer;
+    background-color: gray;
+
+}
+/*end intro*/
+
+/*parent into*/
+.end_intro{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.end_intro .title {
+    width: 30%;
+    height: 500px;
+    float: left;
+    overflow: hidden;
+}
+.end_intro .title .title_content{
+    margin-left: 15%;
+    margin-top: 150px; 
+}
+.end_intro .title .title_content h1{
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    color: #1a284d;
+
+}
+.end_intro .title .title_content a{
+    text-decoration: none;
+    font-size: 23px;
+    font-family: 'Raleway', sans-serif;
+    color: #5b70a3;
+}
+.end_intro .title .title_content a:hover{
+    cursor: pointer;
+    color: gray;
+
+}
+
+
+/*end parent into*/
+
+/*about us */
+.about_us{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.about_us .h_about{
+    width: 100%;
+    height: 50px;
+}
+.about_us .h_about h1{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #1a284d;
+    font-size: 40px;
+}
+.about_us hr{
+    width: 5%;
+    height: 3px;
+    background-color: #5b70a3;
+    border-radius: 10px;
+
+}
+.about_us .all-about{
+    width: 100%;
+    height: auto;
+}
+.about_us .all-about .photo{
+    float: left;
+    width: 30%;
+    margin-left: 10% ;
+}
+.about_us .all-about .photo img{
+    margin-top: 30px;
+    width: 100%;
+    height: 350px;
+}
+.about_us .desc{
+    width: 40%;
+    height: auto;
+    overflow: hidden;   
+}
+.about_us .desc h4{
+    margin-top: 60px;
+    margin-left: 20px;
+    color: #1a284d;
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+
+}
+.about_us .desc p{
+    margin-left: 20px;
+    color: #1a284d;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.about_us .desc button{
+    float: right;
+    margin: 15px ;
+    width: 150px;
+    height: 35px;
+    border: 1px solid rgb(49, 48, 48);
+    color: white;
+    background-color: #3f5999;
+    border-radius: 20px;
+    margin-left: 15px;
+    font-size: 16px;
+}
+.about_us .desc button:hover{
+    cursor: pointer;
+    color: #3f5999;
+    background-color: white;
+
+}
+/*end about us */
+
+/*our courses*/
+
+.our_courses{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.our_courses .h_course{
+    width: 100%;
+    height: 50px;
+}
+.our_courses .h_course h1{
+    font-family: 'Raleway', sans-serif;
+    color: #1a284d;
+    font-size: 40px;
+    margin-left: 10%;
+
+}
+.our_courses hr{
+    width: 5%;
+    height: 3px;
+    background-color: #5b70a3;
+    border-radius: 10px;
+    margin-left: 10%;
+}
+.parent_big{
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.detaled_courses{
+    position: relative;
+    width: 75%;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 10%;
+    float: left;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+    
+}
+ .detaled_courses ul{
+    min-width: 6000px;
+    list-style-type: none;
+}
+ .detaled_courses ul li{
+    float: left;
+}
+ .detaled_courses .card_courses{
+    float: left;
+    margin-left: 15px;
+    width: 350px;
+    height: 420px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.288);
+    box-shadow: 0px 3px 3px  rgba(128, 128, 128, 0.466) ;
+    border-radius: 10px;
+
+
+    
+
+}
+ .detaled_courses .card_courses .photo_card{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+}
+ .detaled_courses .card_courses .photo_card img{
+    width: 100%;
+    height: 250px;
+
+}
+ .detaled_courses .card_courses .course_detailes{
+    color: black;
+    background-color: white;
+    margin-top: 0px;
+    height: 10px;
+}
+ .detaled_courses .card_courses .course_detailes #name{
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    margin-top: 15px;
+}
+.detaled_courses .card_courses .course_detailes #price{
+    float: right;
+    margin-right: 5px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.detaled_courses .card_courses .course_detailes #desc{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.detaled_courses .card_courses .course_detailes button{
+    float: right;
+    margin: 15px ;
+    width: 150px;
+    height: 35px;
+    border: 1px solid rgb(49, 48, 48);
+    color: white;
+    background-color: #3f5999;
+    border-radius: 20px;
+    margin-left: 15px;
+    font-size: 16px;
+}
+.detaled_courses .card_courses .course_detailes button:hover{
+    cursor: pointer;
+    color: #3f5999;
+    background-color: white;
+}
+
+
+.parent_big #next{
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    z-index: +2;
+}
+ .parent_big #prev{
+    position: absolute;
+    top: 35%;
+    left:  5%;
+    z-index: +2;
+}
+
+.parent_big #next:hover{
+    cursor: pointer;
+}
+.parent_big #prev:hover{
+    cursor: pointer;
+}
+
+/*end our courses*/
+
+/*contact us */
+.contact_us{
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.contact_us .h_contact{
+    width: 100%;
+    height: 50px;
+}
+.contact_us .h_contact h1{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #1a284d;
+    font-size: 40px;
+}
+.contact_us hr{
+    width: 5%;
+    height: 3px;
+    background-color: #5b70a3;
+    border-radius: 10px;
+    margin-left: 48%;
+}
+.contact_us .all_contact {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 40px;
+
+}
+.contact_us .all_contact .parent_contact{
+    float: left;
+    width: 30%;
+    margin-left: 3%;
+
+
+}
+
+.contact_us .all_contact .parent_contact .photo{
+    width: 100%;
+}
+.contact_us .all_contact .parent_contact .photo img{
+    width: 10%;
+    margin-left: 45%;
+}
+.contact_us .all_contact .parent_contact p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: #1a284d;
+}
+
+/*end contact us */
+
+/*footer*/
+.footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 35px;
+    color: white;
+    background-color: #1a284d;
+}
+.footer p{
+    padding: 7px ;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+/*end footer*/
